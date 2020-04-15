@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "gdbundle-voltron"
-version = "0.1.7.post1"
-description = "gdbundle wrapper for snare/voltron"
+version = "0.1.7.post2"
+description = "gdbundle plugin for snare/voltron"
 authors = ["Tyler Hoffman <tyler@memfault.com>"]
 readme = "README.md"
 license = "MIT"
@@ -24,7 +24,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "~2.7 || ~3.4 || ~3.5 || ~3.6"
-voltron = {git = "https://github.com/snare/voltron.git", rev = "bcf25d957657414d025ff488889cdef8d4fcae06"}
+voltron = "0.1.7"
 
 [build-system]
 requires = ["poetry>=0.12"]
